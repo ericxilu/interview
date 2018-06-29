@@ -3,7 +3,7 @@ package com.lucrortek.datastructure;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MergeSort {
+public class MergeSortApp {
     private int[] sortingList;
 
 
@@ -26,7 +26,7 @@ public class MergeSort {
             leftArray[l] = arry[l];
 
         for(int r = 0; r<rightArraySize; r++)
-            rightArray[r] = arry[midIndex+1];
+            rightArray = arry[midIndex+1];
 
         //current position trackers that tracks the movement of the left array and right array during comparision
         int leftArrayCurrentPostionTracker =  lowerBoundIndex;
